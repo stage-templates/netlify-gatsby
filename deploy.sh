@@ -5,6 +5,7 @@ npm run build
 cd public
 git init
 git add -A
+git branch -M main
 git commit -m 'publish'
-git push -f git@github.com:stage-templates/netlify-gatsby.git public:gh-pages
+git push -f git@github.com:stage-templates/netlify-gatsby.git main:gh-pages
 cd ../
