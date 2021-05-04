@@ -1,7 +1,11 @@
 backend:
-  name: git-gateway
-  branch: master
+  name: github
+  branch: main
+  repo: stage-templates/netlify-gatsby
+  base_url: https://ic41rukxqb.execute-api.us-east-1.amazonaws.com/prod
+  auth_endpoint: /auth
 
+site_id: gatsby.sklein.dev
 media_folder: static/img
 public_folder: /img
 
