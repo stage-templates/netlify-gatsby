@@ -1,6 +1,7 @@
 backend:
-  name: git-gateway
-  branch: master
+  name: github
+  repo: stage-templates/netlify-gatsby
+  branch: main
 
 media_folder: static/img
 public_folder: /img
