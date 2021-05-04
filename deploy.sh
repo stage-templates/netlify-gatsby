@@ -1,7 +1,7 @@
 git checkout main
 npm version patch
 npm run build
-# cp ./resources/assets/CNAME ./httpdocs
+cp ./CNAME ./public
 cd public
 git init
 git add -A
