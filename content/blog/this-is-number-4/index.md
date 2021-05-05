@@ -6,3 +6,5 @@ description: Check out my latest post
 Okay, let's see if this works out okay.
 
 Boom!
+
+![me burger](me-burger.jpeg "me burger")
